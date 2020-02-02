@@ -1,0 +1,14 @@
+.display {
+
+}
+
+
+.video_content {
+  margin: 2% 5%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin: 1%;
+}

@@ -1,0 +1,35 @@
+.video_card{
+  padding: 10px;
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+video {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.fa-heart{
+  float: right;
+  color: deeppink;
+}
+
+.video_tags span {
+  display: inline-block;
+  text-align: center;
+  margin: 2px;
+  width :50px;
+  padding: 2%;
+  background-color: dodgerblue;
+  border-radius: 4px;
+}
+
+.vidoe_description span{
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 20px;
+  width: auto;
+}

@@ -1,0 +1,17 @@
+.searchbar {
+  margin: 2%;
+}
+
+input {
+  width: 86%;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+button {
+  width: 8%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
