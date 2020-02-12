@@ -16,15 +16,18 @@ video {
   float: right;
   color: deeppink;
 }
-
-.video_tags span {
+.videotagcontainer {
   display: inline-block;
   text-align: center;
   margin: 2px;
-  width :50px;
+  width :70px;
   padding: 2%;
   background-color: dodgerblue;
   border-radius: 4px;
+}
+
+.video_tags span {
+  display: inline-block;
 }
 
 .vidoe_description span{

@@ -2,8 +2,8 @@
   <video controls>
     <source [src]="vine.url" type="video/mp4">
   </video>
-  <div class="video_tags" *ngFor="let tag of vine.tags">
-    <span>{{tag}}</span>
+  <div class="videotagcontainer" *ngFor="let tag of vine.tags">
+    <span class="video_tags">{{tag}}</span>
   </div>
   <i class="far fa-heart fa-2x"></i>
   <div class="vidoe_description">
