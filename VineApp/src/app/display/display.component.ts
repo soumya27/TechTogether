@@ -14,6 +14,8 @@ export class DisplayComponent implements OnInit {
     this.vineService = vineService;
   }
 
+  // Fetching all the vine details from the DB
+  // Using those details to populate the UI
   ngOnInit() {
     this.vineService.getVines().subscribe(
       vineData => {

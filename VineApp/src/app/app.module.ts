@@ -8,6 +8,8 @@ import { DisplayComponent } from './display/display.component';
 import { SearchComponent } from './display/search/search.component';
 import { VideoCardComponent } from './display/video-card/video-card.component';
 import {HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {HttpClientModule} from '@angular/common/http';
     FooterComponent,
     DisplayComponent,
     SearchComponent,
-    VideoCardComponent
+    VideoCardComponent,
+    LoginComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
