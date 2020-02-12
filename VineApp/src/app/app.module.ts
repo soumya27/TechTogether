@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DisplayComponent } from './display/display.component';
 import { SearchComponent } from './display/search/search.component';
 import { VideoCardComponent } from './display/video-card/video-card.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VideoCardComponent } from './display/video-card/video-card.component';
     VideoCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

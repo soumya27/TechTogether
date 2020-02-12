@@ -1,14 +1,12 @@
-<div class ="video_card">
+<div class ="video_card" [class.todo]="vine">
   <video controls>
-    <source src="movie.mp4" type="video/mp4">
+    <source [src]="vine.url" type="video/mp4">
   </video>
-  <div class="video_tags">
-    <span>Funny</span>
-    <span>Kid</span>
-    <span>Dog</span>
-    <i class="far fa-heart fa-2x"></i>
+  <div class="video_tags" *ngFor="let tag of vine.tags">
+    <span>{{tag}}</span>
   </div>
+  <i class="far fa-heart fa-2x"></i>
   <div class="vidoe_description">
-    <span>Dialogue1 Test sentence here! </span>
+    <span>{{vine.description}}</span>
   </div>
 </div>

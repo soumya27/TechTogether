@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
+import {Vines} from '../../model/vines';
 
 @Component({
   selector: 'app-video-card',
@@ -6,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./video-card.component.css']
 })
 export class VideoCardComponent implements OnInit {
-
+  @Input() vine: Vines;
+  classObject: object = {
+    vine: true ? 'vine' : ''
+  };
   constructor() { }
 
   ngOnInit() {
